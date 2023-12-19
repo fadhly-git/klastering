@@ -103,7 +103,7 @@ if st.sidebar.button("Mulai Klastering"):
 
             # Tampilkan hasil klastering
             st.success("Klastering selesai!")
-            st.write(filtered_df[['id_pegawai', 'waktu_numerik', 'jenis_aktivitas', 'Cluster']])
+            st.write(filtered_df[['id_pegawai', 'waktu', 'jenis_aktivitas', 'Cluster']])
 
             # Visualisasi hasil klastering
             st.subheader("Visualisasi Hasil Klastering")
